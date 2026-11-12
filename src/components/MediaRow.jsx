@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 
 // src/components/MediaRow.jsx
-const MediaRow = (props) => {
-  const {item} = props;
+const MediaRow = ({item}) => {
   return (
     <tr>
       <td>
