@@ -1,16 +1,13 @@
 import './App.css';
-import Greeting from './components/Greeting';
+import Home from './components/Home';
 
 const App = () => {
-  const sitename = 'WSK Super site';
+  const sitename = 'WSK Superrrr site';
 
   return (
     <>
-      <h1>{sitename}</h1>
-      <p>Moro tässä on mahtava sivustoni {3 + 4}</p>
-      <Greeting name="Ulla" age={23} insTeacher={true} />
-      <Greeting name="Matti" />
-      <Greeting name="Liisa" />
+      <h1 className="otsikko">{sitename}</h1>
+      <Home />
     </>
   );
 };
