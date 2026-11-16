@@ -1,9 +1,16 @@
 import {useLocation, useNavigate} from 'react-router';
 
 const Single = () => {
-  const {state} = useLocation();
+  // const {state} = useLocation();
+  // const item = state;
+
+  const location = useLocation();
+  const item = location.state;
+  console.log('Location', location);
+  console.log('Location state', location.state);
+
   const navigate = useNavigate();
-  const item = state;
+
   return (
     <>
       <h2>Single media file</h2>
