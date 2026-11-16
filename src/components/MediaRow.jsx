@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
+import {Link} from 'react-router';
 
 // src/components/MediaRow.jsx
-const MediaRow = ({item, setItem}) => {
+const MediaRow = ({item}) => {
   return (
-    <tr onClick={() => setItem(item)}>
+    <tr>
       <td>
         <img src={item.thumbnail} alt={item.title} />
       </td>
@@ -13,9 +14,9 @@ const MediaRow = ({item, setItem}) => {
       <td>{item.filesize}</td>
       <td>{item.media_type}</td>
       <td>
-        <button type="button" onClick={() => setItem(item)}>
-          Open
-        </button>
+        <Link to="/single" state={item}>
+          Display
+        </Link>
       </td>
     </tr>
   );
