@@ -1,4 +1,6 @@
+import {useState} from 'react';
 import MediaRow from './MediaRow';
+import SingleView from './SingleView';
 // import TempCounter from './TempCounter';
 
 // mockdata, poistetaan myöhemmin
@@ -39,6 +41,7 @@ const mediaArray = [
 ];
 
 const Home = () => {
+  const [selectedItem, setSelectedItem] = useState(null);
   return (
     <>
       {/* This is comment inside JSX, state demo: */}
@@ -53,15 +56,25 @@ const Home = () => {
             <th>Created</th>
             <th>Size</th>
             <th>Type</th>
+            <th>Open</th>
           </tr>
         </thead>
         <tbody>
           {mediaArray.map((item) => (
-            <MediaRow key={item.media_id} item={item} />
+            <MediaRow
+              key={item.media_id}
+              item={item}
+              selectedItem={selectedItem}
+              setItem={setSelectedItem}
+            />
           ))}
         </tbody>
       </table>
+      {selectedItem && (
+        <SingleView item={selectedItem} setItem={setSelectedItem} />
+      )}
     </>
   );
 };
+
 export default Home;
