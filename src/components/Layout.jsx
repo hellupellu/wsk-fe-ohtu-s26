@@ -23,7 +23,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer>
-        <p>&copy; teacher 2026</p>
+        <p>&copy; student 2026</p>
       </footer>
     </>
   );
