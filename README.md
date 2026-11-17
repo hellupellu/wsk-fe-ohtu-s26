@@ -20,3 +20,9 @@ If you are developing a production application, we recommend using TypeScript wi
 The React Routing application has been built with Vite and published on Metropolia's web server.
 
 Open [the React Routing app](https://users.metropolia.fi/~helenaph/wsk-routing/) to view it in the browser.
+
+## React Hooks – Published App
+
+This app uses React Hooks to get media files and usernames from an API.
+
+Open [the React Hooks app](https://users.metropolia.fi/~helenaph/hooks/) to view it in the browser.
