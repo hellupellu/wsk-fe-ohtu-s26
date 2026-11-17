@@ -26,3 +26,9 @@ Open [the React Routing app](https://users.metropolia.fi/~helenaph/wsk-routing/)
 This app uses React Hooks to get media files and usernames from an API.
 
 Open [the React Hooks app](https://users.metropolia.fi/~helenaph/hooks/) to view it in the browser.
+
+## React Custom Hooks – Published App
+
+This app uses custom hooks to get media files and user information from an API.
+
+Open [the Custom Hooks app](https://users.metropolia.fi/~helenaph/custom-hooks/) to view it in the browser.
