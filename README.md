@@ -32,3 +32,9 @@ Open [the React Hooks app](https://users.metropolia.fi/~helenaph/hooks/) to view
 This app uses custom hooks to get media files and user information from an API.
 
 Open [the Custom Hooks app](https://users.metropolia.fi/~helenaph/custom-hooks/) to view it in the browser.
+
+## React Forms – Published App
+
+This app includes login, registration and user profile functionality.
+
+Open [the React Forms app](https://users.metropolia.fi/~helenaph/forms/) to view it in the browser.

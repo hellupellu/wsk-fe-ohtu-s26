@@ -16,6 +16,15 @@ const Layout = () => {
             <li>
               <Link to="/upload">Upload</Link>
             </li>
+            <li>
+              <Link to="/login">Login</Link>
+            </li>
+            <li>
+              <Link to="/logout">Logout</Link>
+            </li>
+            <li>
+              <Link to="/demo">Demo</Link>
+            </li>
           </ul>
         </nav>
       </header>
@@ -23,7 +32,7 @@ const Layout = () => {
         <Outlet />
       </main>
       <footer>
-        <p>&copy; student 2026</p>
+        <p>&copy; teacher 2026</p>
       </footer>
     </>
   );
