@@ -44,3 +44,9 @@ Open [the React Forms app](https://users.metropolia.fi/~helenaph/forms/) to view
 This app uses React Context to manage user authentication and shared user state.
 
 Open [the React Shared State app](https://users.metropolia.fi/~helenaph/context/) to view it in the browser.
+
+## React File Upload – Published App
+
+This app allows logged-in users to upload media files with a title and description.
+
+Open [the React File Upload app](https://users.metropolia.fi/~helenaph/upload/) to view it in the browser.
